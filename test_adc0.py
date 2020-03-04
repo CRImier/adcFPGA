@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import devmem
 base=0xff200000
 adcChanel0=devmem.DevMem(base, 0x100, "/dev/mem", 0)
